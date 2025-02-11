@@ -1,4 +1,4 @@
-name: first-one
+Rname: first-one
 
 on: push
 
@@ -10,5 +10,5 @@ jobs:
     steps: 
       - name: co repo code
         uses: actions/checkout@v4
-      - run: echo "${cat hello_world.txt}"
+      - run: echo "EUREKA!"
   
