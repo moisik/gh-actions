@@ -1,0 +1,14 @@
+name: first-one
+
+on: push
+
+jobs:
+  first-one-job:
+
+    runs-on: ubuntu-latest
+
+    steps: 
+      - name: co repo code
+        uses: actions/checkout@v4
+      - run: echo "${first-of-his-name.txt}"
+  
